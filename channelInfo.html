@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="channelInfo.css">
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <!--Import Google Icon Font-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    
+</head>
+<body>
+    <h4 style="text-align:center;">Please enter a Channel ID</h4>
+    <form>
+        <div class="input-field">
+            <input id="search" type="search" placeholder="Youtube Channel..." required>
+            <button id="submit" class="btn waves-effect waves-light red z-depth-3" type="button" onclick="Executer()">Search!
+                <i class="material-icons right"></i>
+            </button>
+        </div>
+    </form>
+    <img class="z-depth-4" id="thumbnail">
+    <h1 class="center-align" id="title"></h1>
+    <br/>
+    <h1 class="center-align" id="subscribers"></h1>
+    <br/>
+    <h1 class="center-align" id="totalViews"></h1>
+    <br/>
+    <h1 class="center-align" id="totalVideos"></h1> 
+
+
+
+    <script src="channelInfo.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+</body>
+</html>
